@@ -1,0 +1,151 @@
+.Con1 {
+    align-items: flex-start;
+    display: inline-block;
+    display: flex;
+  }
+  
+  .box1 {
+    flex: 1;
+    height: 150px;
+    
+  }
+  
+  .Con2 {
+    align-items: flex-start;
+    display: inline-block;
+    display: flex;
+  }
+  
+  .box2 {
+    flex: 1;
+    
+  }
+  
+  .box3 {
+    flex: 5;
+  }
+  
+  body {
+    background-image:url(https://phonoteka.org/uploads/posts/2021-04/1619091264_8-phonoteka_org-p-krasivie-foni-dlya-dnevnika-8.jpg);
+    background-size:cover;
+  }
+  
+  html {
+    overflow-x: hidden;
+  }
+  
+  h1 {
+    font-family: cursive;
+    color: firebrick;
+    position: relative;
+    top: 1%;
+    left: 40%;
+    border: solid none;
+    border-radius: 25px;
+    width: 45%;
+  }
+  
+  h2 {
+    color: green;
+    font-family: cursive;
+    position: relative;
+    top: 10%;
+    left: 33%;
+    border: solid none;
+    border-radius: 25px;
+    width: 45%;
+  }
+  
+  button {
+    font-family: cursive;
+    padding: 12px 24px;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    background: #7ce681;
+    box-shadow: 0 4px 8px 0 rgba(39, 153, 214, 0.35);
+    cursor: pointer;
+    transition: border-radius 0.2s ease-in;
+    border-radius: 16px;
+  }
+  
+  button:hover {
+    background: red;
+    box-shadow: 0 4px 16px 0 rgba(39, 153, 214, 0.25);
+    border-radius: 4px;
+  }
+  
+  table {
+    position: relative;
+    left: 25%;
+    top: 0px;
+    
+    text-align: center;
+    
+    border-radius: 25px;
+    padding: 10%;
+  }
+  
+  p {
+    line-height: 1.5;
+    color: #ff0000;
+  }
+  
+  .p1 {
+    background-color: aqua ;
+    font-family: sans-serif;
+    position: relative;
+    padding: 1%;
+    left: 10%;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 80%;
+  }
+  
+  .p2, .p3 {
+    background-color: white;
+    font-family: sans-serif;
+    position: relative;
+    left: 23%;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 18px;
+    width: 45%;
+  }
+  
+  .foto {
+    position: relative;
+    left: 5%;
+    top: 0;
+    border-radius: 100%;
+    width: 12%;
+    height: 220px;
+    z-index: 10;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  @media (min-width: 1200px) and (max-width: 1499px) {
+    h1 {
+      left: 34%;
+    }
+    h2 {
+      left: 41%;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    h1 {
+      left: 34%;
+    }
+    h2 {
+      left: 41%;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+      left: 32%;
+    }
+    h2 {
+      left: 39%;
+    }
+  }/*# sourceMappingURL=Sass1.css.map */
